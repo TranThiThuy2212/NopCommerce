@@ -3,7 +3,6 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/labWebDriverManager/httpcore5-h2-5.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/labWebDriverManager/guava-19.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/labWebDriverManager/jcl-over-slf4j-1.7.30.jar!/" />
       <root url="jar://$PROJECT_DIR$/labWebDriverManager/bcprov-jdk18on-1.76.jar!/" />
       <root url="jar://$PROJECT_DIR$/labWebDriverManager/webdrivermanager-5.6.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/labWebDriverManager/commons-lang3-3.13.0.jar!/" />
