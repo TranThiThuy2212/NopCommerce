@@ -9,7 +9,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.*;
 
-public class Function_05_Sort extends BaseTest {
+public class Function_06_Display_Paging extends BaseTest {
     private WebDriver driver;
     private HomePageObject homePage;
     private LoginPageObject loginPage;
@@ -61,36 +61,40 @@ public class Function_05_Sort extends BaseTest {
         notebooksPage =computersPage.clickToNotebooksLink();
     }
     @Test
-    public void Sort_01_Sort_By_Name_ASC(){
-        log.info("Sort_01 - Step 01: Click to item in Sort Dropdown");
-        notebooksPage.selectItemProductSortDropDown("Name: A to Z");
+    public void Display_01_3_Product(){
+        log.info("DisPlay_01 - Step 01: Click to item in Display Dropdown");
+        notebooksPage.selectItemNumberProductDisplayDropDown("3");
         notebooksPage.sleepInSecond(2);
-        log.info("Sort_01 - Step 02: Verify sort by name ASC ");
-        Assert.assertTrue(notebooksPage.isProductSortByNameASC());
+        log.info("DisPlay_01 - Step 02: Verify number product display ");
+        Assert.assertEquals(notebooksPage.numberOfProductShow(),3);
+        log.info("DisPlay_01 - Step 03: Verify Page one display");
+        Assert.assertTrue(notebooksPage.isPageOneDisplay());
+        log.info("DisPlay_01 - Step 04: Verify Next icon display");
+        Assert.assertTrue(notebooksPage.isNextIconDisplay());
+        log.info("DisPlay_01 - Step 05: Click to Page two display");
+        notebooksPage.clickToPageTwo();
+        log.info("DisPlay_01 - Step 06: Verify Previous icon display");
+        Assert.assertTrue(notebooksPage.isPreviousIconDisplay());
     }
     @Test
-    public void Sort_02_Sort_By_Name_DESC(){
-        log.info("Sort_02 - Step 01: Click to item in Sort Dropdown");
-        notebooksPage.selectItemProductSortDropDown("Name: Z to A");
+    public void Display_02_6_Product(){
+        log.info("DisPlay_02 - Step 01: Click to item in Display Dropdown");
+        notebooksPage.selectItemNumberProductDisplayDropDown("6");
         notebooksPage.sleepInSecond(2);
-        log.info("Sort_02 - Step 02: Verify sort by name DESC ");
-        Assert.assertTrue(notebooksPage.isProductSortByNameDEC());
+        log.info("DisPlay_02 - Step 02: Verify number product display ");
+        Assert.assertEquals(notebooksPage.numberOfProductShow(),6);
+        log.info("DisPlay_02 - Step 03: Verify pagging one display");
+        Assert.assertTrue(notebooksPage.isPaggingUnDisplay());
     }
     @Test
-    public void Sort_03_Sort_By_Price_ASC(){
-        log.info("Sort_03 - Step 01: Click to item in Sort Dropdown");
-        notebooksPage.selectItemProductSortDropDown("Price: Low to High");
+    public void Display_03_9_Product(){
+        log.info("DisPlay_03 - Step 01: Click to item in Display Dropdown");
+        notebooksPage.selectItemNumberProductDisplayDropDown("9");
         notebooksPage.sleepInSecond(2);
-        log.info("Sort_03 - Step 02: Verify sort by price ASC ");
-        Assert.assertTrue(notebooksPage.isProductSortByPriceASC());
-    }
-    @Test
-    public void Sort_04_Sort_By_Price_DESC(){
-        log.info("Sort_04 - Step 01: Click to item in Sort Dropdown");
-        notebooksPage.selectItemProductSortDropDown("Price: High to Low");
-        notebooksPage.sleepInSecond(2);
-        log.info("Sort_04 - Step 02: Verify sort by price DESC ");
-        Assert.assertTrue(notebooksPage.isProductSortByPriceDESC());
+        log.info("DisPlay_03 - Step 02: Verify number product display ");
+        Assert.assertEquals(notebooksPage.numberOfProductShow(),6);
+        log.info("DisPlay_03 - Step 03: Verify pagging one display");
+        Assert.assertTrue(notebooksPage.isPaggingUnDisplay());
     }
     @AfterClass(alwaysRun = true)
     public void afterClass(){

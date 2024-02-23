@@ -9,7 +9,7 @@
     <test name="Run on Firefox" preserve-order="true">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="com.nopcommerce.user.Function_05_Sort" />
+            <class name="com.nopcommerce.user.Function_06_Display" />
         </classes>
     </test>
 

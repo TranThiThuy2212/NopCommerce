@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.544">
+  <properties />
+  
+  
+            <testcase name="Display_01_3_Product" time="2.855" classname="com.nopcommerce.user.Function_06_Display" />
+                <testcase name="Display_03_9_Product" time="7.345" classname="com.nopcommerce.user.Function_06_Display" />
+                <testcase name="Display_02_6_Product" time="7.344" classname="com.nopcommerce.user.Function_06_Display" />
+      
+</testsuite>

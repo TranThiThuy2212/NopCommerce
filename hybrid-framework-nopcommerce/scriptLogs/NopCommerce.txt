@@ -1,26 +1,30 @@
-[2024-02-23 20:51:51,237 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 01: Click to Register link
-[2024-02-23 20:51:52,392 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 02: input to First Name Textbox
-[2024-02-23 20:51:52,579 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 03: input to Last Name Textbox
-[2024-02-23 20:51:52,666 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 04: input to Email Textbox
-[2024-02-23 20:51:52,723 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 05: input to Password Textbox
-[2024-02-23 20:51:52,805 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 06: input to Confirm Password Textbox
-[2024-02-23 20:51:52,886 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 07: Click Register button
-[2024-02-23 20:51:53,542 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 08: Verify Success message
-[2024-02-23 20:51:53,679 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 09: Click Continue button
-[2024-02-23 20:51:54,050 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 10: Click to Login link
-[2024-02-23 20:51:54,489 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 11: input to Email textbox
-[2024-02-23 20:51:54,592 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 12: input to Password textbox
-[2024-02-23 20:51:54,654 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 13: Click to Login button
-[2024-02-23 20:51:55,317 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 14: Verify My Account link display
-[2024-02-23 20:51:55,435 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 15: Click to Computer link
-[2024-02-23 20:51:56,593 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 16: Click to Notebooks link
-[2024-02-23 20:51:57,105 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 01: Click to iten in Dropdown
-[2024-02-23 20:51:59,495 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 02: Verify sort by name ASC 
-[2024-02-23 20:51:59,600 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 01: Click to iten in Dropdown
-[2024-02-23 20:52:01,902 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 02: Verify sort by name DESC 
-[2024-02-23 20:52:01,981 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 01: Click to iten in Dropdown
-[2024-02-23 20:52:04,280 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 02: Verify sort by price ASC 
-[2024-02-23 20:52:04,361 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 01: Click to iten in Dropdown
-[2024-02-23 20:52:06,645 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 02: Verify sort by price DESC 
-[2024-02-23 20:52:06,709 INFO com.nopcommerce.user.Function_05_Sort] - OS name = windows 10
-[2024-02-23 20:52:06,709 INFO com.nopcommerce.user.Function_05_Sort] - Driver instance name = firefoxdriver: firefox on windows (a26896b0-3962-480d-a1e5-b6a006add95b)
+[2024-02-23 21:33:10,769 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 01: Click to Register link
+[2024-02-23 21:33:11,998 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 02: input to First Name Textbox
+[2024-02-23 21:33:12,233 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 03: input to Last Name Textbox
+[2024-02-23 21:33:12,345 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 04: input to Email Textbox
+[2024-02-23 21:33:12,413 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 05: input to Password Textbox
+[2024-02-23 21:33:12,468 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 06: input to Confirm Password Textbox
+[2024-02-23 21:33:12,529 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 07: Click Register button
+[2024-02-23 21:33:13,230 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 08: Verify Success message
+[2024-02-23 21:33:13,353 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 09: Click Continue button
+[2024-02-23 21:33:13,713 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 10: Click to Login link
+[2024-02-23 21:33:14,197 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 11: input to Email textbox
+[2024-02-23 21:33:14,306 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 12: input to Password textbox
+[2024-02-23 21:33:14,363 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 13: Click to Login button
+[2024-02-23 21:33:15,011 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 14: Verify My Account link display
+[2024-02-23 21:33:15,140 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 15: Click to Computer link
+[2024-02-23 21:33:16,328 INFO com.nopcommerce.user.Function_06_Display] - Pre-Condition - Step 16: Click to Notebooks link
+[2024-02-23 21:33:17,644 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_01 - Step 01: Click to item in Display Dropdown
+[2024-02-23 21:33:20,006 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_01 - Step 02: Verify number product display 
+[2024-02-23 21:33:20,036 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_01 - Step 03: Verify Page one display
+[2024-02-23 21:33:20,076 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_01 - Step 04: Verify Next icon display
+[2024-02-23 21:33:20,115 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_01 - Step 05: Click to Page two display
+[2024-02-23 21:33:20,362 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_01 - Step 06: Verify Previous icon display
+[2024-02-23 21:33:20,503 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_02 - Step 01: Click to item in Display Dropdown
+[2024-02-23 21:33:22,783 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_02 - Step 02: Verify number product display 
+[2024-02-23 21:33:22,809 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_02 - Step 03: Verify pagging one display
+[2024-02-23 21:33:27,847 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_03 - Step 01: Click to item in Display Dropdown
+[2024-02-23 21:33:30,138 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_03 - Step 02: Verify number product display 
+[2024-02-23 21:33:30,167 INFO com.nopcommerce.user.Function_06_Display] - DisPlay_03 - Step 03: Verify pagging one display
+[2024-02-23 21:33:35,195 INFO com.nopcommerce.user.Function_06_Display] - OS name = windows 10
+[2024-02-23 21:33:35,195 INFO com.nopcommerce.user.Function_06_Display] - Driver instance name = firefoxdriver: firefox on windows (bb591a2a-2874-4121-bcd3-f6b220a596a7)
