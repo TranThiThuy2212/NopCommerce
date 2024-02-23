@@ -15,4 +15,10 @@ public class ComputersPageObject extends BasePage {
         clickToElement(driver, ComputersPageUI.DESKTOPS_LINK);
         return PageGeneratorManager.getDesktopInfoPage(driver);
     }
+
+    public NotebooksPageObject clickToNotebooksLink() {
+        waitForElementVisibile(driver, ComputersPageUI.NOTEBOOKS_LINK);
+        clickToElement(driver, ComputersPageUI.NOTEBOOKS_LINK);
+        return PageGeneratorManager.getNotebooksPage(driver);
+    }
 }

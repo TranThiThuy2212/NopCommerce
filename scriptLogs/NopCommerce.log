@@ -73,3 +73,125 @@
 [2024-02-19 23:07:38,220 INFO com.nopcommerce.user.Function_01_Register] - Register 06 - Step 08: Verify error message at Confirm Password Textbox
 [2024-02-19 23:07:38,256 INFO com.nopcommerce.user.Function_01_Register] - OS name = windows 10
 [2024-02-19 23:07:38,256 INFO com.nopcommerce.user.Function_01_Register] - Driver instance name = firefoxdriver: firefox on windows (da2a9de1-01f6-499c-8956-2db1103ef646)
+[2024-02-23 20:45:49,770 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 01: Click to Register link
+[2024-02-23 20:45:51,034 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 02: input to First Name Textbox
+[2024-02-23 20:45:51,169 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 03: input to Last Name Textbox
+[2024-02-23 20:45:51,237 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 04: input to Email Textbox
+[2024-02-23 20:45:51,305 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 05: input to Password Textbox
+[2024-02-23 20:45:51,368 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 06: input to Confirm Password Textbox
+[2024-02-23 20:45:51,466 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 07: Click Register button
+[2024-02-23 20:45:52,409 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 08: Verify Success message
+[2024-02-23 20:45:52,524 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 09: Click Continue button
+[2024-02-23 20:45:52,900 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 10: Click to Login link
+[2024-02-23 20:45:53,413 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 11: input to Email textbox
+[2024-02-23 20:45:53,565 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 12: input to Password textbox
+[2024-02-23 20:45:53,624 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 13: Click to Login button
+[2024-02-23 20:45:54,338 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 14: Verify My Account link display
+[2024-02-23 20:45:54,470 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 15: Click to Computer link
+[2024-02-23 20:45:55,683 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 16: Click to Notebooks link
+[2024-02-23 20:45:56,955 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:45:59,294 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 02: Verify sort by name ASC 
+[2024-02-23 20:45:59,372 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:46:01,644 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 02: Verify sort by name DESC 
+[2024-02-23 20:46:01,709 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:46:04,007 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 02: Verify sort by price ASC 
+[2024-02-23 20:46:04,116 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:46:06,389 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 02: Verify sort by price DESC 
+[2024-02-23 20:46:06,468 INFO com.nopcommerce.user.Function_05_Sort] - OS name = windows 10
+[2024-02-23 20:46:06,468 INFO com.nopcommerce.user.Function_05_Sort] - Driver instance name = firefoxdriver: firefox on windows (4dfccea9-9c63-4dd1-974d-84bfb0b34afa)
+[2024-02-23 20:48:31,335 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 01: Click to Register link
+[2024-02-23 20:48:32,608 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 02: input to First Name Textbox
+[2024-02-23 20:48:32,830 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 03: input to Last Name Textbox
+[2024-02-23 20:48:32,920 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 04: input to Email Textbox
+[2024-02-23 20:48:32,986 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 05: input to Password Textbox
+[2024-02-23 20:48:33,055 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 06: input to Confirm Password Textbox
+[2024-02-23 20:48:33,114 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 07: Click Register button
+[2024-02-23 20:48:33,768 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 08: Verify Success message
+[2024-02-23 20:48:33,874 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 09: Click Continue button
+[2024-02-23 20:48:34,234 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 10: Click to Login link
+[2024-02-23 20:48:34,686 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 11: input to Email textbox
+[2024-02-23 20:48:34,798 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 12: input to Password textbox
+[2024-02-23 20:48:34,868 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 13: Click to Login button
+[2024-02-23 20:48:35,532 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 14: Verify My Account link display
+[2024-02-23 20:48:35,649 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 15: Click to Computer link
+[2024-02-23 20:48:36,925 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 16: Click to Notebooks link
+[2024-02-23 20:48:38,234 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:48:40,618 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 02: Verify sort by name ASC 
+[2024-02-23 20:48:40,692 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:48:42,971 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 02: Verify sort by name DESC 
+[2024-02-23 20:48:43,034 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:48:45,309 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 02: Verify sort by price ASC 
+[2024-02-23 20:48:45,485 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:48:47,773 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 02: Verify sort by price DESC 
+[2024-02-23 20:48:47,845 INFO com.nopcommerce.user.Function_05_Sort] - OS name = windows 10
+[2024-02-23 20:48:47,846 INFO com.nopcommerce.user.Function_05_Sort] - Driver instance name = firefoxdriver: firefox on windows (7612bbd2-9b6c-4428-ac84-9dfc527a8359)
+[2024-02-23 20:50:01,605 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 01: Click to Register link
+[2024-02-23 20:50:02,837 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 02: input to First Name Textbox
+[2024-02-23 20:50:03,023 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 03: input to Last Name Textbox
+[2024-02-23 20:50:03,105 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 04: input to Email Textbox
+[2024-02-23 20:50:03,195 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 05: input to Password Textbox
+[2024-02-23 20:50:03,274 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 06: input to Confirm Password Textbox
+[2024-02-23 20:50:03,332 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 07: Click Register button
+[2024-02-23 20:50:04,031 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 08: Verify Success message
+[2024-02-23 20:50:04,122 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 09: Click Continue button
+[2024-02-23 20:50:04,502 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 10: Click to Login link
+[2024-02-23 20:50:05,004 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 11: input to Email textbox
+[2024-02-23 20:50:05,107 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 12: input to Password textbox
+[2024-02-23 20:50:05,165 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 13: Click to Login button
+[2024-02-23 20:50:05,860 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 14: Verify My Account link display
+[2024-02-23 20:50:05,975 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 15: Click to Computer link
+[2024-02-23 20:50:06,419 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 16: Click to Notebooks link
+[2024-02-23 20:50:07,744 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:50:10,165 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 02: Verify sort by name ASC 
+[2024-02-23 20:50:10,250 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:50:12,544 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 02: Verify sort by name DESC 
+[2024-02-23 20:50:12,609 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:50:14,887 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 02: Verify sort by price ASC 
+[2024-02-23 20:50:14,951 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:50:17,228 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 02: Verify sort by price DESC 
+[2024-02-23 20:50:17,341 INFO com.nopcommerce.user.Function_05_Sort] - OS name = windows 10
+[2024-02-23 20:50:17,341 INFO com.nopcommerce.user.Function_05_Sort] - Driver instance name = firefoxdriver: firefox on windows (6d465420-38ea-414f-add9-50d16e0b12c9)
+[2024-02-23 20:51:04,633 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 01: Click to Register link
+[2024-02-23 20:51:06,358 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 02: input to First Name Textbox
+[2024-02-23 20:51:06,553 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 03: input to Last Name Textbox
+[2024-02-23 20:51:06,625 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 04: input to Email Textbox
+[2024-02-23 20:51:06,704 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 05: input to Password Textbox
+[2024-02-23 20:51:06,790 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 06: input to Confirm Password Textbox
+[2024-02-23 20:51:06,844 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 07: Click Register button
+[2024-02-23 20:51:08,231 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 08: Verify Success message
+[2024-02-23 20:51:08,349 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 09: Click Continue button
+[2024-02-23 20:51:08,757 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 10: Click to Login link
+[2024-02-23 20:51:31,316 INFO com.nopcommerce.user.Function_05_Sort] - OS name = windows 10
+[2024-02-23 20:51:31,316 INFO com.nopcommerce.user.Function_05_Sort] - Driver instance name = firefoxdriver: firefox on windows (7efd23b1-218a-4766-9c78-74a96f8be9df)
+[2024-02-23 20:51:31,331 INFO com.nopcommerce.user.Function_05_Sort] - Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-G1KMTQH', ip: '192.168.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22296, moz:profile: C:\Users\TRANTHUY\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7efd23b1-218a-4766-9c78-74a96f8be9df
+[2024-02-23 20:51:51,237 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 01: Click to Register link
+[2024-02-23 20:51:52,392 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 02: input to First Name Textbox
+[2024-02-23 20:51:52,579 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 03: input to Last Name Textbox
+[2024-02-23 20:51:52,666 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 04: input to Email Textbox
+[2024-02-23 20:51:52,723 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 05: input to Password Textbox
+[2024-02-23 20:51:52,805 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 06: input to Confirm Password Textbox
+[2024-02-23 20:51:52,886 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 07: Click Register button
+[2024-02-23 20:51:53,542 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 08: Verify Success message
+[2024-02-23 20:51:53,679 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 09: Click Continue button
+[2024-02-23 20:51:54,050 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 10: Click to Login link
+[2024-02-23 20:51:54,489 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 11: input to Email textbox
+[2024-02-23 20:51:54,592 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 12: input to Password textbox
+[2024-02-23 20:51:54,654 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 13: Click to Login button
+[2024-02-23 20:51:55,317 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 14: Verify My Account link display
+[2024-02-23 20:51:55,435 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 15: Click to Computer link
+[2024-02-23 20:51:56,593 INFO com.nopcommerce.user.Function_05_Sort] - Pre-Condition - Step 16: Click to Notebooks link
+[2024-02-23 20:51:57,105 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:51:59,495 INFO com.nopcommerce.user.Function_05_Sort] - Sort_01 - Step 02: Verify sort by name ASC 
+[2024-02-23 20:51:59,600 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:52:01,902 INFO com.nopcommerce.user.Function_05_Sort] - Sort_02 - Step 02: Verify sort by name DESC 
+[2024-02-23 20:52:01,981 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:52:04,280 INFO com.nopcommerce.user.Function_05_Sort] - Sort_03 - Step 02: Verify sort by price ASC 
+[2024-02-23 20:52:04,361 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 01: Click to iten in Dropdown
+[2024-02-23 20:52:06,645 INFO com.nopcommerce.user.Function_05_Sort] - Sort_04 - Step 02: Verify sort by price DESC 
+[2024-02-23 20:52:06,709 INFO com.nopcommerce.user.Function_05_Sort] - OS name = windows 10
+[2024-02-23 20:52:06,709 INFO com.nopcommerce.user.Function_05_Sort] - Driver instance name = firefoxdriver: firefox on windows (a26896b0-3962-480d-a1e5-b6a006add95b)

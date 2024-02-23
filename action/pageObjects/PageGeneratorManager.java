@@ -42,5 +42,8 @@ public class PageGeneratorManager {
     public static SearchPageObject getSearchPage(WebDriver driver){
         return new SearchPageObject(driver);
     }
+    public static NotebooksPageObject getNotebooksPage(WebDriver driver){
+        return new NotebooksPageObject(driver);
+    }
 
 }

@@ -39,4 +39,10 @@ public class HomePageObject extends BasePage {
         clickToElement(driver, HomePageUI.SEARCH_LINK);
         return PageGeneratorManager.getSearchPage(driver);
     }
+
+    public ComputersPageObject clickToComputerLink() {
+        waitForElementClickable(driver, HomePageUI.COMPUTER_LINK);
+        clickToElement(driver, HomePageUI.COMPUTER_LINK);
+        return PageGeneratorManager.getComputerInfoPage(driver);
+    }
 }

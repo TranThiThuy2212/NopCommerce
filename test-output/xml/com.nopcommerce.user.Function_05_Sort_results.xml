@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.597">
+  <properties />
+  
+  
+            <testcase name="Sort_03_Sort_By_Price_ASC" time="2.379" classname="com.nopcommerce.user.Function_05_Sort" />
+                <testcase name="Sort_04_Sort_By_Price_DESC" time="2.346" classname="com.nopcommerce.user.Function_05_Sort" />
+                <testcase name="Sort_02_Sort_By_Name_DESC" time="2.381" classname="com.nopcommerce.user.Function_05_Sort" />
+                <testcase name="Sort_01_Sort_By_Name_ASC" time="2.491" classname="com.nopcommerce.user.Function_05_Sort" />
+      
+</testsuite>
