@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.133">
+  <properties />
+  
+  
+            <testcase name="Wishlist_04_Add_Product_To_Compare" time="3.516" classname="com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View" />
+                <testcase name="Wishlist_03_Remove_Product_In_Wishlist_Page" time="6.770" classname="com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View" />
+                <testcase name="Wishlist_05_Recently_Viewed_Products" time="14.271" classname="com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View" />
+                <testcase name="Wishlist_01_Add_To_Wishlist" time="4.375" classname="com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View" />
+                <testcase name="Wishlist_02_Add_Product_To_Cart_From_Wishlist" time="3.201" classname="com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View" />
+      
+</testsuite>

@@ -9,7 +9,7 @@
     <test name="Run on Firefox" preserve-order="true">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="com.nopcommerce.user.Function_06_Display" />
+            <class name="com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View" />
         </classes>
     </test>
 

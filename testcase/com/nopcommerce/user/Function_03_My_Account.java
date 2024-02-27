@@ -20,7 +20,7 @@ public class Function_03_My_Account extends BaseTest {
     private ChangePasswordPageObject changePasswordPage;
     private ComputersPageObject computersPage;
     private DesktopsPageObject desktopsPage;
-    private BuildYourOwnComputerPageObject buildYourOwnComputerPage;
+    private ProductPageObject productPage;
     private WriteYourOwnReviewPageObject writeYourOwnReviewPage;
     private MyProductReviewPageObject myProductReviewPage;
 
@@ -193,9 +193,9 @@ public class Function_03_My_Account extends BaseTest {
         log.info("My_Account_04 - Step 02: Click to Desktops link");
         desktopsPage=computersPage.clickToDesktopsLink();
         log.info("My_Account_04 - Step 03: Click to Name product");
-        buildYourOwnComputerPage = desktopsPage.clickToNameProduct();
+        productPage = desktopsPage.clickToNameProduct();
         log.info("My_Account_04 - Step 04: Click to Add Your Review");
-        writeYourOwnReviewPage=buildYourOwnComputerPage.clickAddYourReview();
+        writeYourOwnReviewPage= productPage.clickAddYourReview();
         log.info("My_Account_04 - Step 05: Input to Review Title Textbox");
         writeYourOwnReviewPage.inputToReviewTitleTextbox("ABCDE");
         log.info("My_Account_04 - Step 06: Input to Review Text Textbox");

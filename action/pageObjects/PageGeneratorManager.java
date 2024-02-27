@@ -30,8 +30,8 @@ public class PageGeneratorManager {
     public static DesktopsPageObject getDesktopInfoPage(WebDriver driver){
         return new DesktopsPageObject(driver);
     }
-    public static BuildYourOwnComputerPageObject getBuildYourOwnComputer(WebDriver driver){
-        return new BuildYourOwnComputerPageObject(driver);
+    public static ProductPageObject getProductPage(WebDriver driver){
+        return new ProductPageObject(driver);
     }
     public static WriteYourOwnReviewPageObject getWriteYourOwnReview(WebDriver driver){
         return new WriteYourOwnReviewPageObject(driver);
@@ -44,6 +44,21 @@ public class PageGeneratorManager {
     }
     public static NotebooksPageObject getNotebooksPage(WebDriver driver){
         return new NotebooksPageObject(driver);
+    }
+    public static WishlistPageObject getWishlistPage(WebDriver driver){
+        return new WishlistPageObject(driver);
+    }
+    public static ShoppingCartPageObject getShoppingCartPage(WebDriver driver){
+        return new ShoppingCartPageObject(driver);
+    }
+    public static YourWishlistPageObject getYourWishlistPage(WebDriver driver){
+        return new YourWishlistPageObject(driver);
+    }
+    public static CompareProductsPageObject getCompareProductsPage(WebDriver driver){
+        return new CompareProductsPageObject(driver);
+    }
+    public static RecentlyViewedProductsPageObject getRecentlyViewedProductsPage(WebDriver driver){
+        return new RecentlyViewedProductsPageObject(driver);
     }
 
 }

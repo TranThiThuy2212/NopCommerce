@@ -113,4 +113,10 @@ public class NotebooksPageObject extends BasePage {
     public boolean isPaggingUnDisplay() {
         return isElementUndisplayed(driver, NotebooksPageUI.PAGE_ONE);
     }
+
+    public ProductPageObject clickToProductName(String nameProduct) {
+        waitForElementClickable(driver, NotebooksPageUI.NAME_PRODUCT,nameProduct);
+        clickToElement(driver, NotebooksPageUI.NAME_PRODUCT,nameProduct);
+        return PageGeneratorManager.getProductPage(driver);
+    }
 }
