@@ -20,4 +20,9 @@ public class ShoppingCartPageObject extends BasePage {
         clickToElement(driver, ShoppingCartPageUI.WISHLIST_LINK);
         return PageGeneratorManager.getWishlistPage(driver);
     }
+
+    public String getProductInfoInShoppingCart() {
+        waitForElementVisibile(driver, ShoppingCartPageUI.PRODUCT_INFO);
+        return getElementText(driver, ShoppingCartPageUI.PRODUCT_INFO);
+    }
 }

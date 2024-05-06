@@ -48,4 +48,45 @@ public class ProductPageObject extends BasePage {
         clickToElement(driver, ProductPageUI.RECENTLY_VIEWED_PRODUCTS_LINK);
         return PageGeneratorManager.getRecentlyViewedProductsPage(driver);
     }
+
+    public void selectProcessorDropDown(String processor) {
+        waitForElementClickable(driver, ProductPageUI.PROCESSOR_DROPDOWN, processor);
+        selectItemInDefaultDropDown(driver, ProductPageUI.PROCESSOR_DROPDOWN, processor);
+    }
+
+    public void selectRamDropDown(String ram) {
+        waitForElementClickable(driver, ProductPageUI.RAM_DROPDOWN, ram);
+        selectItemInDefaultDropDown(driver, ProductPageUI.RAM_DROPDOWN, ram);
+    }
+
+    public void checkHDDRadio(String hdd) {
+        waitForElementClickable(driver, ProductPageUI.HDD_RADIO, hdd);
+        checkToDefaultCheckboxRadio(driver, ProductPageUI.HDD_RADIO, hdd);
+    }
+
+    public void checkOSRadio(String os) {
+        waitForElementClickable(driver, ProductPageUI.OS_RADIO, os);
+        checkToDefaultCheckboxRadio(driver, ProductPageUI.OS_RADIO, os);
+    }
+
+    public void checkSoftwareCheckbox(String software) {
+        waitForElementClickable(driver, ProductPageUI.SOFTWARE_CHECKBOX, software);
+        checkToDefaultCheckboxRadio(driver, ProductPageUI.SOFTWARE_CHECKBOX, software);
+    }
+
+    public void clickToAddToCartButton() {
+        waitForElementClickable(driver, ProductPageUI.ADD_TO_CART_BUTTON);
+        clickToElement(driver, ProductPageUI.ADD_TO_CART_BUTTON);
+    }
+
+    public String getSuccessMessageAddToCart() {
+        waitForElementVisibile(driver, ProductPageUI.MESSAGE_SUCCESS_ADD_TO_CART);
+        return getElementText(driver, ProductPageUI.MESSAGE_SUCCESS_ADD_TO_CART);
+    }
+
+    public ShoppingCartPageObject clickToShoppingCartLink() {
+        waitForElementClickable(driver, ProductPageUI.SHOPPING_CART_LINK);
+        clickToElement(driver, ProductPageUI.SHOPPING_CART_LINK);
+        return PageGeneratorManager.getShoppingCartPage(driver);
+    }
 }

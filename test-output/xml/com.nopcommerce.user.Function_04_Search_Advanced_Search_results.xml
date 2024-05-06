@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.847">
+  <properties />
+  
+  
+            <testcase name="Search_06_Sub_Categories" time="1.061" classname="com.nopcommerce.user.Function_04_Search_Advanced_Search" />
+                <testcase name="Search_08_Correct_Manufacturer" time="1.060" classname="com.nopcommerce.user.Function_04_Search_Advanced_Search" />
+                <testcase name="Search_05_Parent_Categories" time="1.265" classname="com.nopcommerce.user.Function_04_Search_Advanced_Search" />
+                <testcase name="Search_02_Data_Not_Exit" time="0.552" classname="com.nopcommerce.user.Function_04_Search_Advanced_Search" />
+                <testcase name="Search_03_Search_Relative" time="0.645" classname="com.nopcommerce.user.Function_04_Search_Advanced_Search" />
+                <testcase name="Search_07_Incorrect_Manufacturer" time="1.102" classname="com.nopcommerce.user.Function_04_Search_Advanced_Search" />
+                <testcase name="Search_04_Search_Absolute" time="0.690" classname="com.nopcommerce.user.Function_04_Search_Advanced_Search" />
+                <testcase name="Search_01_Empty_Data" time="0.472" classname="com.nopcommerce.user.Function_04_Search_Advanced_Search" />
+      
+</testsuite>

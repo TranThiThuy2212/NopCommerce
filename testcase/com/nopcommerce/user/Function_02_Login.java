@@ -45,8 +45,10 @@ public class Function_02_Login extends BaseTest {
         registerPage.clickToRegisterButton();
         log.info("Pre-Condition - Step 08: Verify Success message");
         Assert.assertEquals(registerPage.getSuccessMessageAtRegisterPage(),"Your registration completed");
-        log.info("Pre-Condition - Step 09: Click Continue button");
-        homePage= registerPage.clickToContinueButton();
+        //log.info("Pre-Condition - Step 09: Click Continue button");
+        //homePage= registerPage.clickToContinueButton();
+        log.info("Pre-Condition - Step 09: Click Login link");
+        homePage= registerPage.clickToLoginLink();
     }
 
     @Test
@@ -67,7 +69,7 @@ public class Function_02_Login extends BaseTest {
         log.info("Login_02 - Step 03: Click to Login button");
         loginPage.clickToLoginButton();
         log.info("Login_02 - Step 04: Verify error message at Email textbox");
-        Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(),"Wrong email");
+        Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(),"Please enter a valid email address.");
     }
     @Test
     public void Login_03_Email_Not_Found(){

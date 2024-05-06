@@ -9,14 +9,19 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.*;
 
-public class Function_06_Display_Paging extends BaseTest {
+public class Function_08_Order extends BaseTest {
     private WebDriver driver;
     private HomePageObject homePage;
     private LoginPageObject loginPage;
     private RegisterPageObject registerPage;
     private ComputersPageObject computersPage;
-    private NotebooksPageObject notebooksPage;
-    private String firstName, lastName, email,password;
+    private DesktopsPageObject desktopsPage;
+    private ProductPageObject productPage;
+    private ShoppingCartPageObject shoppingCartPage;
+
+    private String firstName, lastName, email,password, productName;
+    private String Processor, RAM, HDD, OS, Software1, Software2, Software3;
+    String wishlistUrl, homePageUrl;
     @Parameters("browser")
     @BeforeClass
     public void beforeClass(String browerName) {
@@ -25,6 +30,14 @@ public class Function_06_Display_Paging extends BaseTest {
         lastName="Thuy";
         email="thuy"+ganarateNumber()+"@gmail.com";
         password="123456";
+        productName ="Build your own computer";
+        Processor="2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]";
+        RAM="8GB [+$60.00]";
+        HDD="400 GB [+$100.00]";
+        OS="Vista Premium [+$60.00]";
+        Software1="Microsoft Office [+$50.00]";
+        Software2="Acrobat Reader [+$10.00]";
+        Software3="Total Commander [+$5.00]";
 
         homePage = PageGeneratorManager.getHomePage(driver);
         log.info("Pre-Condition - Step 01: Click to Register link");
@@ -55,48 +68,41 @@ public class Function_06_Display_Paging extends BaseTest {
         loginPage.inputToPasswordTextbox(password);
         log.info("Pre-Condition - Step 13: Click to Login button");
         homePage=loginPage.clickToLoginButton();
+        homePageUrl = homePage.getPageUrl(driver);
         log.info("Pre-Condition - Step 14: Verify My Account link display");
         Assert.assertTrue(homePage.isMyAccountLinkIsDisplayed());
         log.info("Pre-Condition - Step 15: Click to Computer link");
         computersPage=homePage.clickToComputerLink();
-        log.info("Pre-Condition - Step 16: Click to Notebooks link");
-        notebooksPage =computersPage.clickToNotebooksLink();
+        log.info("Pre-Condition - Step 16: Click to Desktops link");
+        desktopsPage=computersPage.clickToDesktopsLink();
+        log.info("Pre-Condition - Step 17: Click to Name product");
+        productPage = desktopsPage.clickToProductName(productName);
     }
     @Test
-    public void Display_01_3_Product(){
-        log.info("DisPlay_01 - Step 01: Click to item in Display Dropdown");
-        notebooksPage.selectItemNumberProductDisplayDropDown("3");
-        notebooksPage.sleepInSecond(2);
-        log.info("DisPlay_01 - Step 02: Verify number product display ");
-        Assert.assertEquals(notebooksPage.numberOfProductShow(),3);
-        log.info("DisPlay_01 - Step 03: Verify Page one display");
-        Assert.assertTrue(notebooksPage.isPageOneDisplay());
-        log.info("DisPlay_01 - Step 04: Verify Next icon display");
-        Assert.assertTrue(notebooksPage.isNextIconDisplay());
-        log.info("DisPlay_01 - Step 05: Click to Page two display");
-        notebooksPage.clickToPageTwo();
-        log.info("DisPlay_01 - Step 06: Verify Previous icon display");
-        Assert.assertTrue(notebooksPage.isPreviousIconDisplay());
-    }
-    @Test
-    public void Display_02_6_Product(){
-        log.info("DisPlay_02 - Step 01: Click to item in Display Dropdown");
-        notebooksPage.selectItemNumberProductDisplayDropDown("6");
-        notebooksPage.sleepInSecond(2);
-        log.info("DisPlay_02 - Step 02: Verify number product display ");
-        Assert.assertEquals(notebooksPage.numberOfProductShow(),6);
-        log.info("DisPlay_02 - Step 03: Verify pagging one display");
-        Assert.assertTrue(notebooksPage.isPaggingUnDisplay());
-    }
-    @Test
-    public void Display_03_9_Product(){
-        log.info("DisPlay_03 - Step 01: Click to item in Display Dropdown");
-        notebooksPage.selectItemNumberProductDisplayDropDown("9");
-        notebooksPage.sleepInSecond(2);
-        log.info("DisPlay_03 - Step 02: Verify number product display ");
-        Assert.assertEquals(notebooksPage.numberOfProductShow(),6);
-        log.info("DisPlay_03 - Step 03: Verify pagging one display");
-        Assert.assertTrue(notebooksPage.isPaggingUnDisplay());
+    public void Order_01_Add_Product_To_Cart(){
+        log.info("Order_01 - Step 01: selected processor dropdown");
+        productPage.selectProcessorDropDown(Processor);
+        log.info("Order_01 - Step 02: selected Ram dropdown");
+        productPage.selectRamDropDown(RAM);
+        log.info("Order_01 - Step 03: check HDD radio");
+        productPage.checkHDDRadio(HDD);
+        log.info("Order_01 - Step 04: check OS radio");
+        productPage.checkOSRadio(OS);
+        log.info("Order_01 - Step 05: check Software checkbox");
+        productPage.checkSoftwareCheckbox(Software1);
+        productPage.checkSoftwareCheckbox(Software2);
+        productPage.checkSoftwareCheckbox(Software3);
+        log.info("Order_01 - Step 06: click to add to cart button");
+        productPage.clickToAddToCartButton();
+        log.info("Order_01 - Step 07: verify message product just added to cart");
+        Assert.assertEquals(productPage.getSuccessMessageAddToCart(),"The product has been added to your shopping cart");
+        productPage.clickToIconClose();
+        productPage.sleepInSecond(2);
+        log.info("Order_01 - Step 08: click to Shopping Cart link");
+        shoppingCartPage = productPage.clickToShoppingCartLink();
+        log.info("Order_01 - Step 09: verify product info just added to cart");
+        Assert.assertEquals(shoppingCartPage.getProductInfoInShoppingCart(),"Processor:"+" "+Processor +"\nRAM:"+" "+RAM+"\nHDD:"+" "+HDD+"\nOS:"+" "+OS+"\nSoftware:"+" "+Software1+"\nSoftware:"+" "+Software2+"\nSoftware:"+" "+Software3);
+
     }
     @AfterClass(alwaysRun = true)
     public void afterClass(){

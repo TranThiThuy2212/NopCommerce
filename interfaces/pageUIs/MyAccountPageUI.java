@@ -9,5 +9,5 @@ public class MyAccountPageUI {
     public static final String LOGOUT_LINK="xpath=//a[@class='ico-logout']";
     public static final String COMPUTER_LINK="xpath=//div[@class='header-menu']//a[text()='Computers ' ]";
     public static final String MY_PRODUCT_REVIEW_LINK="xpath=////li[@class='customer-reviews inactive']/a";
-    public static final String SUCCESS_MESSAGE_MY_PRODUCT_REVIEW="xpath=//div[@class='result']";
+    public static final String SUCCESS_MESSAGE_MY_PRODUCT_REVIEW="xpath=//div[@class='bar-notification success']/p";
 }

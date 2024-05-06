@@ -4,15 +4,15 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="9.372">
+           time="9.452">
   <properties />
   
   
-            <testcase name="Register_06_Confirm_Password_Incorrect" time="1.748" classname="com.nopcommerce.user.Function_01_Register" />
-                <testcase name="Register_01_Empty_Data" time="2.062" classname="com.nopcommerce.user.Function_01_Register" />
-                <testcase name="Register_05_Password_Less_Than_6_Character" time="1.059" classname="com.nopcommerce.user.Function_01_Register" />
-                <testcase name="Register_03_Correct_Data" time="1.991" classname="com.nopcommerce.user.Function_01_Register" />
-                <testcase name="Register_04_Exiting_Email" time="1.343" classname="com.nopcommerce.user.Function_01_Register" />
-                <testcase name="Register_02_Invalid_Email" time="1.169" classname="com.nopcommerce.user.Function_01_Register" />
+            <testcase name="Register_04_Exiting_Email" time="1.280" classname="com.nopcommerce.user.Function_01_Register" />
+                <testcase name="Register_02_Invalid_Email" time="1.388" classname="com.nopcommerce.user.Function_01_Register" />
+                <testcase name="Register_06_Confirm_Password_Incorrect" time="1.618" classname="com.nopcommerce.user.Function_01_Register" />
+                <testcase name="Register_03_Correct_Data" time="2.814" classname="com.nopcommerce.user.Function_01_Register" />
+                <testcase name="Register_01_Empty_Data" time="1.169" classname="com.nopcommerce.user.Function_01_Register" />
+                <testcase name="Register_05_Password_Less_Than_6_Character" time="1.183" classname="com.nopcommerce.user.Function_01_Register" />
       
 </testsuite>

@@ -1,69 +1,28 @@
-[2024-02-27 22:09:10,520 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 01: Click to Register link
-[2024-02-27 22:09:11,634 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 02: input to First Name Textbox
-[2024-02-27 22:09:11,827 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 03: input to Last Name Textbox
-[2024-02-27 22:09:11,921 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 04: input to Email Textbox
-[2024-02-27 22:09:11,993 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 05: input to Password Textbox
-[2024-02-27 22:09:12,092 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 06: input to Confirm Password Textbox
-[2024-02-27 22:09:12,152 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 07: Click Register button
-[2024-02-27 22:09:12,813 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 08: Verify Success message
-[2024-02-27 22:09:12,931 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 09: Click Continue button
-[2024-02-27 22:09:13,291 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 10: Click to Login link
-[2024-02-27 22:09:13,753 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 11: input to Email textbox
-[2024-02-27 22:09:13,852 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 12: input to Password textbox
-[2024-02-27 22:09:13,921 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 13: Click to Login button
-[2024-02-27 22:09:14,549 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 14: Verify My Account link display
-[2024-02-27 22:09:14,695 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 15: Click to Computer link
-[2024-02-27 22:09:15,158 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 16: Click to Desktops link
-[2024-02-27 22:09:15,761 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Pre-Condition - Step 17: Click to Name product
-[2024-02-27 22:09:17,185 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_01 - Step 01: Click to Add To Wishlist button
-[2024-02-27 22:09:17,478 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_01 - Step 02: Verify success message
-[2024-02-27 22:09:17,572 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_01 - Step 03: Click to Close icon
-[2024-02-27 22:09:19,837 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_01 - Step 04: Click to Wishlist link
-[2024-02-27 22:09:21,048 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_01 - Step 05: Verify product name just added display
-[2024-02-27 22:09:21,121 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_01 - Step 06: Click to Your Wishlist URL For Share link
-[2024-02-27 22:09:21,466 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_01 - Step 07: Verify header wishlist display
-[2024-02-27 22:09:21,565 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_02 - Step 01: Navigate Wishlist page
-[2024-02-27 22:09:21,867 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_02 - Step 02: Click to Add To Cart checkbox
-[2024-02-27 22:09:22,197 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_02 - Step 03: Click to Add To Cart button
-[2024-02-27 22:09:23,679 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_02 - Step 04: Verify Product just Added To Cart
-[2024-02-27 22:09:23,765 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_02 - Step 05: Click to Wishlist link
-[2024-02-27 22:09:24,669 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_02 - Step 06: Verify The wishlist is empty
-[2024-02-27 22:09:24,768 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 01: Navigate Home page
-[2024-02-27 22:09:25,086 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 02: Click to Computer link
-[2024-02-27 22:09:26,376 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 03: Click to Desktops link
-[2024-02-27 22:09:26,811 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 04: Click to Name product
-[2024-02-27 22:09:27,278 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 05: Click to Add To Wishlist button
-[2024-02-27 22:09:27,615 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 06: Verify success message
-[2024-02-27 22:09:28,332 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 07: Click to Close icon
-[2024-02-27 22:09:30,622 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 08: Click to Wishlist link
-[2024-02-27 22:09:30,989 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 09: Verify product name just added display
-[2024-02-27 22:09:31,087 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 10: Click to Remove Icon
-[2024-02-27 22:09:31,426 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_03 - Step 11: Verify The wishlist is empty
-[2024-02-27 22:09:31,539 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 01: Navigate Home page
-[2024-02-27 22:09:31,892 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 02: Click to Computer link
-[2024-02-27 22:09:32,320 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 03: Click to Desktops link
-[2024-02-27 22:09:32,720 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 04: Click to Add To Compare
-[2024-02-27 22:09:33,017 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 05: Verify success message
-[2024-02-27 22:09:33,110 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 06: Click to Close icon
-[2024-02-27 22:09:33,376 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 07: Click to Add To Compare
-[2024-02-27 22:09:33,637 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 08: Verify success message
-[2024-02-27 22:09:33,677 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 09: Click to product comparison link 
-[2024-02-27 22:09:34,205 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 10: Verify product name just added display
-[2024-02-27 22:09:34,363 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 11: Click to CLEAR LIST link
-[2024-02-27 22:09:34,444 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_04 - Step 12: Verify The Compare is empty
-[2024-02-27 22:09:35,055 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 01: Navigate Home page
-[2024-02-27 22:09:35,376 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 02: Click to Computer link
-[2024-02-27 22:09:35,810 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 03: Click to Notebooks link
-[2024-02-27 22:09:37,049 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 04: Click to Name product
-[2024-02-27 22:09:38,299 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 05: Click to icon back to page
-[2024-02-27 22:09:39,435 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 06: Click to Name product
-[2024-02-27 22:09:40,643 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 07: Click to icon back to page
-[2024-02-27 22:09:41,751 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 08: Click to Name product
-[2024-02-27 22:09:43,042 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 09: Click to icon back to page
-[2024-02-27 22:09:44,153 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 10: Click to Name product
-[2024-02-27 22:09:45,619 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 11: Click to icon back to page
-[2024-02-27 22:09:46,714 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 12: Click to Name product
-[2024-02-27 22:09:47,988 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 13: Click to Recently viewed products at footer
-[2024-02-27 22:09:49,169 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Wishlist_05 - Step 14: Verify product name just added display
-[2024-02-27 22:09:49,329 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - OS name = windows 10
-[2024-02-27 22:09:49,330 INFO com.nopcommerce.user.Function_07_Wishlist_Compare_Recent_View] - Driver instance name = firefoxdriver: firefox on windows (e08a9353-be15-4750-bddf-8ba846819801)
+[2024-05-06 21:45:14,402 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 01: Click to Register link
+[2024-05-06 21:45:15,743 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 02: input to First Name Textbox
+[2024-05-06 21:45:15,949 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 03: input to Last Name Textbox
+[2024-05-06 21:45:16,039 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 04: input to Email Textbox
+[2024-05-06 21:45:16,127 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 05: input to Password Textbox
+[2024-05-06 21:45:16,229 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 06: input to Confirm Password Textbox
+[2024-05-06 21:45:16,280 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 07: Click Register button
+[2024-05-06 21:45:16,992 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 08: Verify Success message
+[2024-05-06 21:45:17,112 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 09: Click Login link
+[2024-05-06 21:45:17,808 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 10: Click to Login link
+[2024-05-06 21:45:18,322 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 11: input to Email textbox
+[2024-05-06 21:45:18,440 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 12: input to Password textbox
+[2024-05-06 21:45:18,501 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 13: Click to Login button
+[2024-05-06 21:45:19,254 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 14: Verify My Account link display
+[2024-05-06 21:45:19,367 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 15: Click to Computer link
+[2024-05-06 21:45:19,851 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 16: Click to Desktops link
+[2024-05-06 21:45:20,414 INFO com.nopcommerce.user.Function_08_Order] - Pre-Condition - Step 17: Click to Name product
+[2024-05-06 21:45:21,135 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 01: selected processor dropdown
+[2024-05-06 21:45:21,262 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 02: selected Ram dropdown
+[2024-05-06 21:45:21,557 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 03: check HDD radio
+[2024-05-06 21:45:21,820 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 04: check OS radio
+[2024-05-06 21:45:22,064 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 05: check Software checkbox
+[2024-05-06 21:45:22,645 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 06: click to add to cart button
+[2024-05-06 21:45:22,926 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 07: verify message product just added to cart
+[2024-05-06 21:45:25,339 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 08: click to Shopping Cart link
+[2024-05-06 21:45:26,693 INFO com.nopcommerce.user.Function_08_Order] - Order_01 - Step 09: verify product info just added to cart
+[2024-05-06 21:45:26,799 INFO com.nopcommerce.user.Function_08_Order] - OS name = windows 10
+[2024-05-06 21:45:26,800 INFO com.nopcommerce.user.Function_08_Order] - Driver instance name = firefoxdriver: firefox on windows (1b0f1f67-9a7a-4f01-b5d7-28c9c7aade55)

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="19.711">
+  <properties />
+  
+  
+            <testcase name="My_Account_03_Change_Password" time="7.059" classname="com.nopcommerce.user.Function_03_My_Account" />
+                <testcase name="My_Account_01_Customer_Info" time="2.938" classname="com.nopcommerce.user.Function_03_My_Account" />
+                <testcase name="My_Account_02_Address" time="3.538" classname="com.nopcommerce.user.Function_03_My_Account" />
+                <testcase name="My_Account_04_My_Product_Reviews" time="6.176" classname="com.nopcommerce.user.Function_03_My_Account" />
+      
+</testsuite>

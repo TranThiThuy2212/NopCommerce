@@ -68,8 +68,10 @@ public class Function_03_My_Account extends BaseTest {
         registerPage.clickToRegisterButton();
         log.info("Pre-Condition - Step 08: Verify Success message");
         Assert.assertEquals(registerPage.getSuccessMessageAtRegisterPage(),"Your registration completed");
-        log.info("Pre-Condition - Step 09: Click Continue button");
-        homePage= registerPage.clickToContinueButton();
+        //log.info("Pre-Condition - Step 09: Click Continue button");
+        //homePage= registerPage.clickToContinueButton();
+        log.info("Pre-Condition - Step 09: Click Login link");
+        homePage= registerPage.clickToLoginLink();
         log.info("Pre-Condition - Step 10: Click to Login link");
         loginPage = homePage.clickToLoginLink();
         log.info("Pre-Condition - Step 11: input to Email textbox");
@@ -204,6 +206,8 @@ public class Function_03_My_Account extends BaseTest {
         writeYourOwnReviewPage.clickToSubmitReviewButton();
         log.info("My_Account_04 - Step 08: Verify success message at Product review page");
         Assert.assertEquals(myAccountPage.getSuccessMessageAtProductReview(),"Product review is successfully added.");
+        myAccountPage.clickToCloseIcon();
+        myAccountPage.sleepInSecond(2);
         log.info("My_Account_04 - Step 09: Click to My Account link");
         myAccountPage = writeYourOwnReviewPage.clickToMyAccountLink();
         log.info("My_Account_04 - Step 10: Click to My product reviews link");

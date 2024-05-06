@@ -80,4 +80,10 @@ public class RegisterPageObject extends BasePage {
         clickToElement(driver, RegisterPageUI.CONTINUE_BUTTON);
         return PageGeneratorManager.getHomePage(driver);
     }
+
+    public HomePageObject clickToLoginLink() {
+        waitForElementClickable(driver, RegisterPageUI.LOGOUT_LINK);
+        clickToElement(driver, RegisterPageUI.LOGOUT_LINK);
+        return PageGeneratorManager.getHomePage(driver);
+    }
 }

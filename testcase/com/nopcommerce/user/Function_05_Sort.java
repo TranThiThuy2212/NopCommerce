@@ -43,8 +43,10 @@ public class Function_05_Sort extends BaseTest {
         registerPage.clickToRegisterButton();
         log.info("Pre-Condition - Step 08: Verify Success message");
         Assert.assertEquals(registerPage.getSuccessMessageAtRegisterPage(),"Your registration completed");
-        log.info("Pre-Condition - Step 09: Click Continue button");
-        homePage= registerPage.clickToContinueButton();
+        //log.info("Pre-Condition - Step 09: Click Continue button");
+        //homePage= registerPage.clickToContinueButton();
+        log.info("Pre-Condition - Step 09: Click Login link");
+        homePage= registerPage.clickToLoginLink();
         log.info("Pre-Condition - Step 10: Click to Login link");
         loginPage = homePage.clickToLoginLink();
         log.info("Pre-Condition - Step 11: input to Email textbox");

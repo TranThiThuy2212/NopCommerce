@@ -15,4 +15,5 @@ public class RegisterPageUI {
     public static final String ERROR_MESSAGE_EXITING_EMAIL="xpath=//div[@class='page-body']//li";
     public static final String REGISTER_BUTTON="xpath=//button[text()='Register']";
     public static final String CONTINUE_BUTTON="xpath=//a[text()='Continue']";
+    public static final String LOGOUT_LINK="xpath=//a[@class='ico-logout']";
 }
